@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.mengge.tongdacampus.Activies.ActivityReQuestion">
+
+    <include layout="@layout/custom_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <EditText
+            android:id="@+id/requestion_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="8"
+            android:gravity="top"
+            android:background="@drawable/frame_black_green_transparent"
+            android:hint="\t\t\t我们的每一个进步,都离不开您的意见和建议。(作者QQ:616173102)"
+            android:padding="@dimen/activity_horizontal_margin" />
+
+        <Button
+            android:id="@+id/requestion_submit_bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+
+            android:text="提交反馈" />
+    </LinearLayout>
+
+
+</LinearLayout>

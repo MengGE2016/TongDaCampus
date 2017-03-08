@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_school_yellow_page2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.mengge.tongdacampus.Activies.ActivitySchoolYellowPage2">
+
+    <include layout="@layout/custom_toolbar"/>
+
+    <WebView
+        android:id="@+id/school_yp2_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </WebView>
+
+
+
+</RelativeLayout>

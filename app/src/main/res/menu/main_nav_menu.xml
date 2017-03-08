@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/main_menu_nav_news_group" android:title="通大新闻">
+            <menu>
+                <item
+                    android:id="@+id/td_videos_main_nav_menu"
+                    android:icon="@drawable/button_school_video_pressed_bg"
+                    android:title="通大视频"/>
+                <item
+                    android:id="@+id/photos_main_nav_menu"
+                    android:icon="@drawable/photos_td_main_nav_bg"
+                    android:title="光影通大"/>
+
+                <item
+                    android:id="@+id/school_yp_main_nav_menu"
+                    android:icon="@drawable/button_school_yellow_page_pressed_bg"
+                    android:title="校园黄页"/>
+
+                <item
+                    android:id="@+id/zbxx_main_nav_menu"
+                    android:icon="@drawable/button_school_zbxx_pressed_bg"
+                    android:title="招标信息"/>
+
+                <item
+                    android:id="@+id/more_news_main_nav_menu"
+                    android:icon="@drawable/button_school_more_news_pressed_bg"
+                    android:title="更多新闻"/>
+
+            </menu>
+
+        </item>
+
+
+
+
+
+        <item android:id="@+id/main_menu_nav_my_school_group" android:title="关于我的">
+
+            <menu>
+                <item
+                    android:id="@+id/jwgl_main_nav_menu"
+                    android:icon="@drawable/button_school_jwgl_pressed_bg"
+                    android:title="教务管理"/>
+
+                <!--item
+                    android:id="@+id/library_main_nav_menu"
+                    android:icon="@drawable/button_school_library_pressed_bg"
+                    android:title="图书馆"/-->
+
+                <item
+                    android:id="@+id/my_lesson_table_main_nav_menu"
+                    android:icon="@drawable/myclass_main_nav_bg"
+                    android:title="我的课表"/>
+
+                <item
+                    android:id="@+id/my_grades_main_nav_menu"
+                    android:icon="@drawable/mygrade_main_nav_bg"
+                    android:title="我的成绩"/>
+            </menu>
+        </item>
+
+        <item android:id="@+id/main_menu_nav_settings_group" android:title="设置">
+            <menu>
+                <item
+                    android:id="@+id/requestion_main_nav_menu"
+                    android:icon="@drawable/requestion_main_nav_bg"
+                    android:title="意见反馈"/>
+
+
+                <item
+                    android:id="@+id/about_us_main_nav_menu"
+                    android:icon="@drawable/aboutus_main_nav_bg"
+                    android:title="关于我们"/>
+
+                <item
+                    android:id="@+id/exit_main_nav_menu"
+                    android:icon="@drawable/exit_main_nav_bg"
+                    android:title="退出应用"/>
+            </menu>
+        </item>
+    </group>
+</menu>

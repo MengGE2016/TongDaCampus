@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/custom_drawer_layout_new_s"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--主布局-->
+    <include layout="@layout/custom_drawer_layout_main_news"/>
+
+    <!--抽屉布局-->
+    <!--include layout="@layout/custom_drawer_layout_deawer_news" /-->
+
+    <android.support.design.widget.NavigationView
+       android:id="@+id/main_nav_view"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/main_nav_menu"/>
+        <!--app:headerLayout="@layout/main_nav_header" />-->
+
+</android.support.v4.widget.DrawerLayout>

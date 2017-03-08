@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">通大校园</string>
+    <string name="login_activity_title">通大校园</string>
+
+    <!-- 主界面DrawerLayout -->
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+
+    <string name="empty"></string>
+    <string name="mon">周一</string>
+    <string name="tue">周二</string>
+    <string name="wen">周三</string>
+    <string name="thu">周四</string>
+    <string name="fri">周五</string>
+    <string name="sta">周六</string>
+    <string name="sun">周日</string>
+
+
+    <!-- 登录界面 -->
+    <string name="login_student_number_text">请输入学号</string>
+    <string name="login_student_sfzh_text">请输入身份证号</string>
+    <string name="login_student_password_text">请输入密码(身份证号)</string>
+    <string name="login_student_check_code_text">验证码</string>
+    <string name="login_student_login_bt_text">登录</string>
+    <string name="login_student_fresh_check_code_bt_text">刷新</string>
+    <string name="login_copyright_text">Copyright © 2015-2016</string>
+
+    <string name="login_student_number_not_null_text">学号不能为空</string>
+    <string name="login_student_sfzh_not_null_text">身份证号不能为空</string>
+    <string name="login_student_password_not_null_text">密码不能为空</string>
+    <string name="login_student_check_code_not_null_text">验证码不能为空</string>
+
+    <string name="login_login_progress_dialog_text">正在登录......</string>
+    <string name="login_network_not_connect_text">请检查网络是否连接</string>
+
+    <string name="login_login_success_text">登录成功</string>
+
+    <string name="this_function_cannot_be_used_for_now_text">该功能即将上线</string>
+
+
+    <!-- 主界面 -->
+    <string name="main_student_grade_query_bt_text">成绩查询</string>
+    <string name="main_student_class_table_query_bt_text">课表查询</string>
+
+
+    <string name="nantong_university_abstrct">\t\t\t\t\t南通大学坐落于素有\"江海明珠\",\"历史文化名城\"美誉的沿海开放城市——江苏省南通市，是江苏省人民政府和交通运输部共建的综合性大学。学校的办学历史最早可追溯到近代著名实业家、教育家张謇先生于1912年创办的私立南通医学专门学校和南通纺织专门学校。2004年，南通医学院、南通工学院、南通师范学院三校合并组建南通大学。经过一个世纪的办学历程，南通大学现已建设成为一所规模结构合理、学科门类齐全、教学质量优秀、办学效益明显的地方综合性大学。
+
+\n\n\t\t\t\t\t学校现有4个校区，占地面积3700余亩，有23个二级学院、1个独立学院和1所大型综合三级甲等附属医院，有全日制在校生3.6万余人，设有99个本科专业，涵盖文学、理学、工学、医学、艺术学、经济学、法学、教育学、历史学、管理学等10个学科门类。学校始终坚持人才培养的中心地位，全面深化教育教学改革。2007年以优秀成绩通过教育部本科教学工作水平评估。学校拥有国家特色专业建设点、教育部第一批本科专业综合改革试点、江苏省品牌专业、江苏省特色专业、江苏省重点专业，以及国家级教学团队、国家级教学成果奖、国家精品课程、国家立项精品资源共享课、国家精品教材、国家级实验教学示范中心、国家级大学生校外实践教育基地、江苏省高等教育教学成果奖等一批优质教学资源。学校是江苏省首批教学工作先进高校。
+
+\n\n\t\t\t\t\t学校是国务院批准的首批具有硕士学位授予权的单位。现有基础医学、临床医学两个博士后流动站，基础医学、临床医学、信息与通信工程3个一级学科博士学位授权点，17个一级学科硕士学位授权点，4个硕士专业学位授权点。拥有省高校国家重点学科培育建设点、江苏省重点学科、江苏省高校优势学科建设工程二期项目、省临床医学重点专科、省高校优秀学科梯队等，构建了较为完备的学科体系和学科建设长效机制。
+
+\n\n\t\t\t\t\t学校坚持科技强校与自主创新，拥有省高校国家重点实验室培育建设点和省部共建教育部重点实验室、省级重点实验室、省级公共技术服务平台、省级工程中心、省高校哲学社会科学重点研究基地以及省高校优秀科技创新团队、江苏高校协同创新中心等一批高端科技创新载体。合并组建以来，共承担“973”计划课题2项、“863”计划课题3项、国家科技支撑项目1项、国家科技重大专项1项、国家自然科学和社会科学基金543项，获发明专利授权492项，荣获包括国家技术发明奖、何梁何利基金科学与技术进步奖、中华医学成果奖、全国高校科学研究优秀成果奖、教育部高等学校科学研究优秀成果奖、江苏省科学技术奖、省哲学社会科学优秀成果奖在内的多项高层次奖励。学校连续多年被评为江苏省科技工作先进高校。
+
+\n\n\t\t\t\t\t学校师资力量雄厚，现有教职工3044人，其中高级职称以上1486人，博士、硕士生导师1143人，拥有中国工程院院士、国家教学名师、国家有突出贡献的中青年专家、国家杰出青年科学基金获得者、国家“千人计划”专家、国家“百千万人才工程”人选、首届江海杰出英才奖获得者、享受国务院特殊津贴人员、教育部优秀骨干教师、江苏省有突出贡献的中青年专家、江苏特聘教授、博士计划、省六大人才高峰、省“333”工程培养对象、省高校“青蓝工程”培养对象等各类杰出人才。
+
+\n\n\t\t\t\t\t学校广泛开展境外交流与合作，与英国、美国、德国、加拿大、澳大利亚、日本、韩国、马来西亚、阿根廷、香港、台湾等15个国家和地区的69所高校和科研院所建立了友好合作关系，开展多个国际交流项目。
+
+\n\n\t\t\t\t\t学校是全国精神文明建设先进单位，全国精神文明建设典型“莫文隋”精神的发源地，江苏省思想政治工作优秀单位，江苏省文明单位标兵，江苏省文明学校，全国普通高等学校毕业生就业工作先进集体和江苏省研究生招生管理工作优秀单位。校党委被评为“江苏省高校先进基层党组织”，校党校获得“江苏省红旗基层党校”称号。</string>
+
+
+    <string name="zbxx_partment_jianjie_text">招投标管理办公室为学校正处级建制机构，与审计处合署办公。按照学校规定，为招投标项目的各参与主体提供服务平台，宏观管理学校各项招标采购工作。负责保管、使用和管理“南通大学经济合同专用章”。部门工作职责主要为：
+
+\n\n（一）宣传国家相关政策法规、上级文件和学校相关规章制度。
+
+\n\n（二）研究起草学校招标采购管理办法及其实施细则。
+
+\n\n（三）建设、管理、维护评标专家库。
+
+\n\n（四）审核招标公告、招标文件，发布招标、中标信息。
+
+\n\n（五）建立和维护学校招投标管理信息网站。
+
+\n\n（六）指导各单位（部门）分散采购工作。
+
+\n\n（七）协助处理招标采购工作的有关问题。
+
+\n\n（八）组建评标工作组，抽取并通知专家评委。
+
+\n\n（九）管理开标、评标过程。
+
+\n\n（十）审核项目合同。
+
+\n\n（十一）使用和管理“南通大学经济合同专用章”。
+
+\n\n（十二）对各类招投标活动、大额资金追加、合同变更等实施监督。</string>
+
+    <string name="zbxx_partment_address_text">
+联系电话：0513-85012891
+\n\n电子邮箱： ztb@ntu.edu.cn
+\n\n传　　真：0513-85012891
+\n\n地　　址：江苏省南通市啬园路9号 南通大学主校区综合楼413
+</string>
+    <string name="title_activity_activity_login_jwgl">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+
+
+    <string name="what_is_new">1. 精简APK文件，安装包体积大幅减小\n2. 全新UI，更加美观\n3. 取消游客登陆入口，只能本校学生使用\n4. 新增光影通大\n5. 更新了好多......\n6. 修复已知BUG\n\n版本：5.0.1</string>
+</resources>
